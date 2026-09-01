@@ -1,51 +1,78 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#11121a"><meta name="description" content="Seongja — building AI, games and strange little ideas on the internet.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f2eee8">
+<meta name="description" content="Seongja — AI, code, games, ideas and experiments. A personal world on the internet.">
 <title>SEONGJA — SOCIALIZING</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="expressive.css"><link rel="stylesheet" href="experience.css">
+<link rel="stylesheet" href="experience.css">
 </head>
 <body>
-<div class="scene-noise"></div><div class="cursor-dot"></div><div class="cursor-ring"></div>
-<header class="nav"><a class="logo" href="#home"><span class="logo-mark"><i></i><i></i><i></i></span><strong>seongja</strong><small>socializing</small></a><nav><a class="active" href="#home">Home</a><a href="#about">About</a><a href="#work">Work</a><a href="#world">World</a><a href="#contact">Contact</a></nav><div class="nav-actions"><button class="search" aria-label="Explore">✦</button><a class="avatar" href="#about">S</a></div></header>
-<main id="home">
-<section class="hero-x section">
-  <div class="hero-copy-x">
-    <div class="hero-kicker"><span class="pulse"></span> SEONGJA / 2026 <b>ONLINE</b></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"><span></span></div>
+<header class="nav">
+  <a class="brand" href="#home" aria-label="Seongja home"><span class="brand-symbol"><i></i><i></i><i></i></span><span><b>seongja</b><small>socializing</small></span></a>
+  <nav aria-label="Main navigation"><a class="active" href="#home">Home</a><a href="#about">About</a><a href="#work">Work</a><a href="#world">World</a></nav>
+  <a class="nav-pill" href="#contact"><span></span> Say hi <b>↗</b></a>
+</header>
+<main>
+<section id="home" class="hero wrap">
+  <div class="hero-copy reveal">
+    <div class="eyebrow"><span class="live-dot"></span> SEONGJA / 2026 <i>PERSONAL SITE</i></div>
     <h1>I make<br><em>things.</em></h1>
-    <p class="hero-sub">AI. Games. Weird ideas. Tiny experiments that somehow become real products.</p>
-    <div class="hero-actions-x"><a class="x-btn primary" href="#work">Explore my world <b>↗</b></a><a class="x-btn" href="#about">Who am I? <b>↓</b></a></div>
-    <div class="hero-meta"><span>01</span><i></i><span>SCROLL / GET CURIOUS</span></div>
+    <p class="lede">A curious student from Assam building AI, products, experiments and whatever idea refuses to leave my head alone.</p>
+    <div class="hero-links"><a class="button dark" href="#work">See what I build <b>↘</b></a><a class="text-button" href="#about">Get to know me <span>↓</span></a></div>
+    <div class="hero-foot"><span>01</span><span class="line"></span><span>KEEP SCROLLING</span></div>
   </div>
-  <div class="hero-3d" aria-hidden="true">
-    <div class="halo halo-1"></div><div class="halo halo-2"></div><div class="orbit orbit-1"></div><div class="orbit orbit-2"></div>
-    <div class="character">
-      <div class="hair"><i></i><i></i><i></i></div><div class="face"><span class="eye e1"></span><span class="eye e2"></span><span class="mouth"></span></div><div class="neck"></div><div class="jacket"></div><div class="arm arm-a"></div><div class="arm arm-b"></div>
-    </div>
-    <div class="float-card card-a"><span>BUILDING</span><strong>AI / PRODUCTS</strong><small>not waiting for permission</small></div>
-    <div class="float-card card-b"><span>NOW</span><strong>15 / STUDENT</strong><small>learning by shipping</small></div>
-    <div class="float-card card-c"><span>MOOD</span><strong>CURIOUS</strong><small>probably overthinking it</small></div>
-    <div class="star s1">✦</div><div class="star s2">✦</div><div class="star s3">✧</div>
+  <div class="hero-stage reveal reveal-delay" aria-label="Abstract 3D artwork">
+    <div class="stage-grid"></div>
+    <div class="orbital orbital-one"></div><div class="orbital orbital-two"></div><div class="orbital orbital-three"></div>
+    <div class="glass-orb"><div class="orb-core"></div><div class="orb-highlight"></div></div>
+    <div class="stage-ribbon ribbon-one">BUILD / LEARN / REPEAT</div>
+    <div class="stage-ribbon ribbon-two">AI · CODE · IDEAS</div>
+    <div class="stage-note note-one"><span>NOW</span><b>learning<br>Python</b></div>
+    <div class="stage-note note-two"><span>MODE</span><b>curious<br>by default</b></div>
+    <div class="stage-mark">S<span>↗</span></div>
   </div>
 </section>
-<section class="marquee-x"><div>SEONGJA</div><span>✦</span><div>AI</div><span>✦</span><div>BUILD</div><span>✦</span><div>CREATE</div><span>✦</span><div>EXPLORE</div><span>✦</span><div>SEONGJA</div></section>
-<section id="about" class="about-x section">
-  <div class="section-index">02 / ABOUT</div>
-  <div class="about-main"><div class="about-title"><span>HELLO.</span><h2>I'm Seongja —<br><em>still becoming.</em></h2></div><div class="about-copy"><p>I’m a student who likes taking ideas that should probably stay as ideas and turning them into working things.</p><p>I build because I’m curious. AI assistants, websites, game-related projects, experiments, little systems — whatever catches my attention next.</p><div class="fact-row"><div><small>BASE</small><strong>ASSAM, INDIA</strong></div><div><small>MODE</small><strong>BUILD / LEARN</strong></div><div><small>SUPERPOWER</small><strong>OBSESSION</strong></div></div></div></div>
-  <div class="interest-cloud"><span>AI</span><span>CODE</span><span>MLBB</span><span>ANIME</span><span>DESIGN</span><span>PYTHON</span><span>MUSIC</span><span>STARTUPS</span><span>EXPERIMENTS</span><span>IDEAS</span></div>
+<section class="ticker" aria-label="Interests"><div>AI</div><i>✦</i><div>CODE</div><i>✦</i><div>PRODUCTS</div><i>✦</i><div>GAMES</div><i>✦</i><div>DESIGN</div><i>✦</i><div>EXPERIMENTS</div><i>✦</i><div>AI</div></section>
+<section id="about" class="about wrap section reveal">
+  <div class="section-top"><span>02 / ABOUT</span><i>THIS IS THE PERSON BEHIND THE BUILDS</i></div>
+  <div class="about-layout">
+    <div class="about-title"><p class="micro">HELLO, I'M</p><h2>Seongja<span>.</span></h2><p class="serif-line">still becoming.</p></div>
+    <div class="about-story"><p class="large-copy">I like taking things apart just to understand why they work — then putting them back together slightly differently.</p><p>I’m a student, builder and obsessive learner. My interests bounce between AI, code, games, anime, music, design and startup ideas. The common thread is simple: <strong>curiosity that turns into making.</strong></p><div class="about-details"><div><span>01</span><b>ASSAM, INDIA</b><small>where I’m based</small></div><div><span>02</span><b>BUILD / LEARN</b><small>how I spend my time</small></div><div><span>03</span><b>OBSESSION</b><small>the unfair advantage</small></div></div></div>
+  </div>
+  <div class="word-field"><span>AI</span><span>PYTHON</span><span>MLBB</span><span>ANIME</span><span>MUSIC</span><span>STARTUPS</span><span>DESIGN</span><span>IDEAS</span><span>AGENTS</span></div>
 </section>
-<section id="work" class="work-x section"><div class="section-index">03 / THINGS I BUILD</div><div class="work-heading"><h2>Not just ideas.<br><em>Actual things.</em></h2><p>Some shipped. Some evolving. Some are currently being bullied into existence.</p></div>
-<div class="project-world">
- <article class="project-x p-recharza"><div class="project-glow"></div><div class="project-top"><span>01</span><b>LIVE / BUILDING</b></div><div class="project-icon icon-cart">◈</div><h3>Recharza</h3><p>A digital game top-up platform built from the ground up — products, checkout, payments, orders, accounts and the infrastructure underneath.</p><div class="project-tags"><i>PRODUCT</i><i>COMMERCE</i><i>NEXT.JS</i></div><a href="#work">Explore project ↗</a></article>
- <article class="project-x p-ai"><div class="project-top"><span>02</span><b>EXPERIMENT / AI</b></div><div class="project-icon icon-ai">✦</div><h3>AI Chatbot</h3><p>A personal AI product with model routing, accounts, agent runs, connected tools and a real backend — not just a chat box.</p><div class="project-tags"><i>AI</i><i>AGENTS</i><i>PRODUCT</i></div><a href="#work">View system ↗</a></article>
- <article class="project-x p-echo"><div class="project-top"><span>03</span><b>CONCEPT / OS</b></div><div class="project-icon icon-orbit">◎</div><h3>ECHO / JARVIS</h3><p>A mission-control style assistant experiment: voice, commands, browsing, news and the idea of turning an assistant into an operating layer.</p><div class="project-tags"><i>ANDROID</i><i>VOICE</i><i>AGENT</i></div><a href="#work">Enter the lab ↗</a></article>
- <article class="project-x p-telegram"><div class="project-top"><span>04</span><b>BUILD / TELEGRAM</b></div><div class="project-icon icon-msg">◌</div><h3>Telegram Agent OS</h3><p>Telegram → model → tools → actions. A practical experiment in making a conversational interface actually do things.</p><div class="project-tags"><i>TELEGRAM</i><i>GEMINI</i><i>MCP</i></div><a href="#work">Inspect the idea ↗</a></article>
-</div></section>
-<section id="world" class="world-x section"><div class="world-art"><div class="planet"></div><div class="rings"></div><div class="world-sticker">CURRENT<br><em>INTERESTS</em></div><div class="world-note">things that keep<br>my brain running</div></div><div class="world-copy"><div class="section-index">04 / MY WORLD</div><h2>Somewhere between<br><em>code & chaos.</em></h2><p>I like technology, but I also like the things that make technology feel human — stories, music, design, games, anime, weird internet culture and conversations that go somewhere unexpected.</p><div class="world-list"><div><b>01</b><strong>AI / AGENTS</strong><span>building useful intelligence</span></div><div><b>02</b><strong>GAMES</strong><span>MLBB · Genshin · Wuthering Waves</span></div><div><b>03</b><strong>ANIME / AESTHETICS</strong><span>characters, atmosphere, worlds</span></div><div><b>04</b><strong>MUSIC</strong><span>because sometimes music wins</span></div></div></div></section>
-<section class="timeline-x section"><div class="section-index">05 / CURRENT ARC</div><h2>Still <em>loading.</em></h2><div class="arc"><div><span>NOW</span><strong>Learning Python</strong><p>Starting from the fundamentals and building upward.</p></div><div><span>ONGOING</span><strong>Shipping projects</strong><p>Turning experiments into things other people can actually use.</p></div><div><span>NEXT</span><strong>Build something weird</strong><p>The brief is intentionally incomplete.</p></div></div></section>
-<section id="contact" class="contact-x section"><div class="contact-orb"></div><div class="section-index">06 / SAY HI</div><h2>Got an idea?<br><em>Bring it.</em></h2><p>I’m usually somewhere between building something and thinking about building something.</p><a class="x-btn light" href="mailto:hello@example.com">Start a conversation <b>↗</b></a><div class="contact-stamp">SOCIALIZING<br><span>SEONGJA / 2026</span></div></section>
-<footer><div class="footer-brand"><span class="logo-mark"><i></i><i></i><i></i></span><strong>seongja</strong></div><span>made with curiosity.</span><span>© 2026</span></footer>
-</main><script src="script.js"></script></body></html>
+<section id="work" class="work section reveal">
+  <div class="wrap"><div class="section-top"><span>03 / WORK</span><i>THINGS I ACTUALLY SPEND MY TIME ON</i></div><div class="work-intro"><h2>Ideas are cheap.<br><em>Shipping is not.</em></h2><p>These are the projects that survived the “this is probably a terrible idea” phase.</p></div></div>
+  <div class="project-canvas wrap">
+    <article class="project project-main"><div class="project-art art-recharza"><div class="cube cube-a"></div><div class="cube cube-b"></div><div class="arc-line"></div><span class="art-label">LIVE SYSTEM</span></div><div class="project-body"><div class="project-number">01 <span>PRODUCT / COMMERCE</span></div><h3>Recharza</h3><p>A digital game top-up platform — products, validation, cart, checkout, payments, orders, accounts and the infrastructure underneath.</p><div class="project-bottom"><span>NEXT.JS · PRISMA · POSTGRES</span><a href="#contact">Explore <b>↗</b></a></div></div></article>
+    <article class="project project-ai"><div class="project-number">02 <span>AI / AGENTS</span></div><div class="ai-visual"><div class="ai-ring r1"></div><div class="ai-ring r2"></div><div class="ai-core">✦</div><span>MODEL<br>ROUTING</span></div><h3>AI Chatbot</h3><p>A personal AI product with model routing, accounts, agent runs, connected tools and a real backend.</p><a class="project-arrow" href="#contact">View system <b>↗</b></a></article>
+    <article class="project project-echo"><div class="project-number">03 <span>ANDROID / VOICE</span></div><div class="echo-visual"><div class="echo-wave"></div><div class="echo-circle"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 8v22M16 17v13a8 8 0 0 0 16 0V17M11 27a13 13 0 0 0 26 0M24 40v-5"/></svg></div></div><h3>ECHO / JARVIS</h3><p>A mission-control assistant experiment built around voice, commands, browsing, news and an operating-layer mindset.</p><a class="project-arrow" href="#contact">Enter the lab <b>↗</b></a></article>
+    <article class="project project-telegram"><div class="project-number">04 <span>TELEGRAM / MCP</span></div><div class="telegram-visual"><span>MESSAGE</span><b>→</b><span>MODEL</span><b>→</b><span>TOOLS</span><b>→</b><span>ACTION</span></div><h3>Telegram Agent OS</h3><p>Turning a chat interface into an actual action layer: Telegram → model → tools → actions.</p><a class="project-arrow" href="#contact">Inspect the idea <b>↗</b></a></article>
+  </div>
+</section>
+<section id="world" class="world wrap section reveal">
+  <div class="section-top"><span>04 / MY WORLD</span><i>THE STUFF BETWEEN THE PROJECTS</i></div>
+  <div class="world-head"><h2>Somewhere between<br><em>code & chaos.</em></h2><p>Technology is the center of gravity. Everything else orbits around it.</p></div>
+  <div class="world-map">
+    <div class="world-sun"><span>SEONGJA</span><small>PERSONAL<br>UNIVERSE</small></div>
+    <div class="planet p-ai"><b>AI</b><small>agents · models<br>systems</small></div>
+    <div class="planet p-games"><b>GAMES</b><small>MLBB · Genshin<br>Wuthering Waves</small></div>
+    <div class="planet p-anime"><b>ANIME</b><small>stories · atmosphere<br>worlds</small></div>
+    <div class="planet p-music"><b>MUSIC</b><small>soundtrack<br>to everything</small></div>
+    <div class="map-orbit o1"></div><div class="map-orbit o2"></div><div class="map-orbit o3"></div>
+  </div>
+</section>
+<section class="arc wrap section reveal"><div class="section-top"><span>05 / CURRENT ARC</span><i>NO FINISH LINE</i></div><div class="arc-head"><h2>Still <em>loading.</em></h2><span>THE NEXT VERSION IS ALWAYS UNDER CONSTRUCTION.</span></div><div class="arc-list"><div><span>NOW</span><h3>Learning Python</h3><p>Fundamentals first. Then build something with them.</p><b>01</b></div><div><span>ONGOING</span><h3>Shipping projects</h3><p>Turning experiments into things other people can use.</p><b>02</b></div><div><span>NEXT</span><h3>Build something weird</h3><p>The brief is intentionally incomplete.</p><b>03</b></div></div></section>
+<section id="contact" class="contact section reveal"><div class="contact-bg"><div></div><div></div><div></div></div><div class="wrap contact-inner"><div class="section-top"><span>06 / CONTACT</span><i>IF YOU MADE IT THIS FAR</i></div><div class="contact-copy"><p class="micro">ONE LAST THING</p><h2>Have an idea?<br><em>Let's make it real.</em></h2><p>I’m usually somewhere between building something and thinking about building something.</p><a class="button light" href="mailto:hello@example.com">Start a conversation <b>↗</b></a></div><div class="contact-stamp">S<span>·</span>SOCIALIZING<br><small>SEONGJA / 2026</small></div></div></section>
+</main>
+<footer class="wrap footer"><a class="brand" href="#home"><span class="brand-symbol"><i></i><i></i><i></i></span><span><b>seongja</b><small>socializing</small></span></a><span>made with curiosity.</span><span>© 2026</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
