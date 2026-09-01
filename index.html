@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#02070d" />
+  <meta name="description" content="Seongja — student, builder, and explorer. Personal OS." />
+  <title>SEONGJA // PERSONAL OS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <aside class="sidebar">
+    <a class="brand" href="#home"><strong>SEONGJA</strong><span>// PERSONAL OS</span></a>
+    <nav aria-label="Main navigation">
+      <a class="nav-link active" href="#home">⌂ <span>HOME</span></a>
+      <a class="nav-link" href="#about">◫ <span>ABOUT</span></a>
+      <a class="nav-link" href="#currently">⌁ <span>CURRENTLY</span></a>
+      <a class="nav-link" href="#projects">▣ <span>PROJECTS</span></a>
+      <a class="nav-link" href="#lab">⌬ <span>LAB</span></a>
+      <a class="nav-link" href="#stack">⌘ <span>STACK</span></a>
+      <a class="nav-link" href="#interests">♡ <span>INTERESTS</span></a>
+      <a class="nav-link" href="#timeline">☷ <span>TIMELINE</span></a>
+      <a class="nav-link" href="#links">◎ <span>LINKS</span></a>
+    </nav>
+    <div class="side-status">
+      <div class="side-title">SYSTEM STATUS</div>
+      <p><i></i> FOCUS<br><span>BUILDING</span></p>
+      <p><i></i> ENERGY<br><span>1 HP (STILL BUILDING)</span></p>
+      <p><i></i> MODE<br><span>SILENT MODE</span></p>
+      <p><i></i> LOCATION<br><span>ASSAM, INDIA</span></p>
+      <p><i></i> TIME<br><span id="clock">--:--:--</span></p>
+    </div>
+  </aside>
+
+  <main>
+    <header class="topbar">
+      <div class="system-pill"><span>›</span> SYSTEM: <b>ONLINE</b></div>
+      <div class="top-links">
+        <a href="https://github.com/sphangcho203-afk" target="_blank" rel="noreferrer" aria-label="GitHub">GH</a>
+        <a href="#links" aria-label="Social links">SOC</a>
+      </div>
+    </header>
+
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <div class="eyebrow">BUILD LOG / 2026</div>
+        <h1>SEONGJA<span>_</span></h1>
+        <h2>STUDENT. BUILDER. EXPLORER.</h2>
+        <p class="lead">A high school student from Assam, India, building things with code, AI and curiosity. I like solving real problems, learning how systems work, and turning ideas into something that actually runs.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">EXPLORE PROJECTS →</a>
+          <a class="btn" href="https://github.com/sphangcho203-afk" target="_blank" rel="noreferrer">OPEN GITHUB ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="city-grid"></div>
+        <div class="terminal-float"><span>// KEEP BUILDING</span><span>// STAY CURIOUS</span><span>// LET RESULTS TALK</span><span>// MAKE SOMETHING</span></div>
+        <div class="time-float" id="hero-time">--:--</div>
+      </div>
+    </section>
+
+    <section class="quick-row">
+      <div>◆ <span>CLASS</span><b>10</b></div>
+      <div>↗ <span>MISSION</span><b>LEVEL UP</b></div>
+      <div>◉ <span>PHILOSOPHY</span><b>PROGRESS &gt; PERFECTION</b></div>
+    </section>
+
+    <div class="grid-3">
+      <section id="about" class="panel">
+        <div class="panel-head"><span>01</span><h3>ABOUT ME</h3></div>
+        <p>I'm an overthinker, problem solver and builder. A lot of my time goes into learning, coding, music, games, anime, and figuring out how to make the next idea real.</p>
+        <p>I don't have everything figured out. That's kind of the point. I'm learning by building.</p>
+        <div class="quote">“Progress &gt; perfection.”</div>
+      </section>
+
+      <section id="currently" class="panel current">
+        <div class="panel-head"><span>02</span><h3>CURRENTLY</h3></div>
+        <div class="progress-list">
+          <div><span>Learning Python</span><b>DAY 01</b><i><em style="width:18%"></em></i></div>
+          <div><span>AI Chatbot V1</span><b>BUILDING</b><i><em style="width:78%"></em></i></div>
+          <div><span>Telegram Agent OS</span><b>BUILDING</b><i><em style="width:60%"></em></i></div>
+          <div><span>Problem solving</span><b>IMPROVING</b><i><em style="width:42%"></em></i></div>
+          <div><span>Music / Anime / Games</span><b>∞</b><i><em style="width:90%"></em></i></div>
+        </div>
+        <div class="focus">Focus: <strong>Build. Learn. Ship. Repeat.</strong></div>
+      </section>
+
+      <section class="panel stats">
+        <div class="panel-head"><span>03</span><h3>QUICK STATS</h3></div>
+        <div class="stat-grid">
+          <div><small>PROJECTS</small><strong>6+</strong></div>
+          <div><small>EXPERIMENTS</small><strong>∞</strong></div>
+          <div><small>HOURS CODED</small><strong>UNCNTD.</strong></div>
+          <div><small>COFFEE</small><strong>LOTS ☕</strong></div>
+        </div>
+        <div class="green-line">&gt; Building future. Please wait...</div>
+      </section>
+    </div>
+
+    <section id="projects" class="panel projects">
+      <div class="section-head"><div><span>04</span><h3>FEATURED PROJECTS</h3></div><span class="hint">SELECT A PROJECT →</span></div>
+      <div class="project-grid">
+        <article class="project"><div class="project-icon">◉</div><h4>AI CHATBOT V1</h4><p>AI-powered chatbot with modern auth, database-backed state, streaming responses and an evolving agent architecture.</p><small>NEXT.JS · TS · PRISMA</small></article>
+        <article class="project"><div class="project-icon">≋</div><h4>ECHO ASSISTANT</h4><p>Mission-control style assistant built around voice, tools, browsing and automation experiments.</p><small>TERMUX · API · ANDROID</small></article>
+        <article class="project"><div class="project-icon">◌</div><h4>JARVIS</h4><p>A native Android assistant project. One of the early experiments that turned “what if?” into an actual build.</p><small>ANDROID · GRADLE · KOTLIN</small></article>
+        <article class="project"><div class="project-icon">➤</div><h4>TELEGRAM AGENT OS</h4><p>Telegram-driven agent experiments connecting models, tools, function calls and custom workflows.</p><small>NODE.JS · GEMINI · MCP</small></article>
+      </div>
+    </section>
+
+    <div class="grid-2">
+      <section id="lab" class="panel lab">
+        <div class="panel-head"><span>05</span><h3>THE LAB</h3></div>
+        <p class="lab-line">&gt; idea detected</p>
+        <p class="lab-line">&gt; overthink it</p>
+        <p class="lab-line">&gt; build it anyway</p>
+        <p class="lab-line">&gt; break it</p>
+        <p class="lab-line">&gt; fix it</p>
+        <p class="lab-line">&gt; repeat<span class="cursor">█</span></p>
+        <p class="muted">Small experiments, strange ideas, prototypes that may become projects later.</p>
+      </section>
+      <section id="stack" class="panel">
+        <div class="panel-head"><span>06</span><h3>STACK</h3></div>
+        <div class="tags"><span>Python</span><span>TypeScript</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Tailwind</span><span>PostgreSQL</span><span>Prisma</span><span>Git</span><span>Android</span><span>APIs</span><span>AI</span></div>
+        <p class="muted">Tools change. The ability to learn them matters more.</p>
+      </section>
+    </div>
+
+    <section id="interests" class="panel interests">
+      <div class="panel-head"><span>07</span><h3>INTERESTS</h3></div>
+      <div class="interest-row"><span>AI / SOFTWARE</span><span>GAMING</span><span>MUSIC</span><span>ANIME</span><span>TECH</span><span>DESIGN</span><span>EXPERIMENTS</span></div>
+    </section>
+
+    <section id="timeline" class="panel timeline">
+      <div class="panel-head"><span>08</span><h3>TIMELINE</h3></div>
+      <div class="timeline-list">
+        <div><time>THEN</time><p>Started exploring technology by messing with things, breaking things, and asking too many questions.</p></div>
+        <div><time>BUILD</time><p>Moved from ideas to actual projects: assistants, bots, websites, APIs and AI experiments.</p></div>
+        <div><time>NOW</time><p>Learning Python, improving engineering fundamentals, and shipping increasingly ambitious systems.</p></div>
+        <div><time>NEXT</time><p>More building. Better code. Bigger ideas. No unnecessary roadmap theatre.</p></div>
+      </div>
+    </section>
+
+    <section id="links" class="panel links">
+      <div class="section-head"><div><span>09</span><h3>LET'S CONNECT</h3></div></div>
+      <div class="link-list">
+        <a href="https://github.com/sphangcho203-afk" target="_blank" rel="noreferrer"><span>GitHub</span><small>@sphangcho203-afk</small><b>↗</b></a>
+      </div>
+      <p class="muted">More public links can be added as you decide what belongs here.</p>
+    </section>
+
+    <footer><span>© 2026 SEONGJA</span><span class="footer-log">&gt; WARNING: OVERTHINKING... &nbsp;&nbsp; &gt; SOLUTION: CODE.</span><span>PERSONAL OS v1.0</span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
